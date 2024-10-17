@@ -1,5 +1,9 @@
 public class Main{
 	public static void main (String[]args){
-		System.out.println("Hola mundo");
+		if (args.lenght == 0){
+			System.out.println(args.lenght);
+		}else{
+			System.out.pritln("HAy " + args.lenght() + " argumentos");
+		}
 	}
 }
